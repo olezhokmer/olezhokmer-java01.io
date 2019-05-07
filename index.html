@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="icon" href="icon.png">
+    <meta charset="utf-8">
+    <title>java-examples</title>
+    <script>
+    function disp(form) {
+        if (form.style.display == "none") {
+            form.style.display = "block";
+        } else {
+            form.style.display = "none";
+        }
+    }
+    </script>
+</head>
+<body>
+    <form id="form1" style="display: none;">
+        <img src="background.jfif" alt="java-example" style="width: 100%;height: 700px;"/>
+    </form>
+    <input type="button" value="View examples!!!" onclick="disp(document.getElementById('form1'))" />
+</body>
+</html>
